@@ -1,8 +1,8 @@
-from ._anvil_designer import Form4Template
+from ._anvil_designer import SubjectSelectTemplate
 from anvil import *
 
 
-class Form4(Form4Template):
+class SubjectSelect(SubjectSelectTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)

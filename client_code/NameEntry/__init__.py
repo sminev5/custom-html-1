@@ -1,8 +1,8 @@
-from ._anvil_designer import Form9Template
+from ._anvil_designer import NameEntryTemplate
 from anvil import *
 
 
-class Form9(Form9Template):
+class NameEntry(NameEntryTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)

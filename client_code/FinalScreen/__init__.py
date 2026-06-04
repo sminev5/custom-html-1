@@ -1,8 +1,8 @@
-from ._anvil_designer import Form7Template
+from ._anvil_designer import FinalScreenTemplate
 from anvil import *
 
 
-class Form7(Form7Template):
+class FinalScreen(FinalScreenTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)

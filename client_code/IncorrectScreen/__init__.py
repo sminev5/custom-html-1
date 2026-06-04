@@ -1,8 +1,8 @@
-from ._anvil_designer import Form5Template
+from ._anvil_designer import IncorrectScreenTemplate
 from anvil import *
 
 
-class Form5(Form5Template):
+class IncorrectScreen(IncorrectScreenTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)

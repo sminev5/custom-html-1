@@ -1,8 +1,8 @@
-from ._anvil_designer import Form8Template
+from ._anvil_designer import TimeoutScreenTemplate
 from anvil import *
 
 
-class Form8(Form8Template):
+class TimeoutScreen(TimeoutScreenTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)

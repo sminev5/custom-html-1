@@ -1,8 +1,8 @@
-from ._anvil_designer import Form2Template
+from ._anvil_designer import CorrectScreenTemplate
 from anvil import *
 
 
-class Form2(Form2Template):
+class CorrectScreen(CorrectScreenTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     super().__init__(**properties)
